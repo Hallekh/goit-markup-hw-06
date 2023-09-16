@@ -850,6 +850,12 @@ input[type="checkbox"]:checked + .privacy-label > .check-privacy {
   }
 }
 
+@media (min-width: 768px) {
+  .hamburger-menu-btn {
+    display: none;
+  }
+}
+
 .mobile-container {
   position: fixed;
   top: 0;
@@ -860,6 +866,13 @@ input[type="checkbox"]:checked + .privacy-label > .check-privacy {
   padding: 80px 35px 40px 40px;
   width: 100%;
   height: 100%;
+  background-color: var(--white-background-color);
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.mobile-container.is-open {
+  transform: translateX(0);
 }
 
 .mobile-contacts-container {

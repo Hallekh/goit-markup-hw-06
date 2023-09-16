@@ -869,12 +869,18 @@ input[type="checkbox"]:checked + .privacy-label > .check-privacy {
 .mobile-menu {
   display: flex;
   flex-direction: column;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 .mobile-list {
   display: flex;
   flex-direction: column;
   margin-bottom: 48px;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 .mobile-close {
@@ -930,6 +936,8 @@ input[type="checkbox"]:checked + .privacy-label > .check-privacy {
 
 .mobile-social-media {
   display: flex;
-  align-items: center;
   gap: 56px;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
 }

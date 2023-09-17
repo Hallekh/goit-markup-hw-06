@@ -330,6 +330,12 @@ header nav .logo {
 }
 
 .features-list {
+  margin-right: o;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
   gap: 72px;
 }
 
@@ -339,7 +345,11 @@ header nav .logo {
   }
 
   .features-list {
+    gap: 24px;
     row-gap: 72px;
+  }
+  .features-title {
+    justify-content: flex-start;
   }
 }
 

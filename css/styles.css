@@ -109,7 +109,7 @@ header nav .logo {
 
 .nav {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   padding: 24px 0;
 }
 

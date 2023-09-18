@@ -616,7 +616,6 @@ header nav .logo {
 @media (min-width: 767.98px) {
   .foo-box {
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
   }
@@ -671,11 +670,6 @@ header nav .logo {
 @media (min-width: 767.98px) {
   .logo {
     justify-content: flex-start;
-  }
-}
-
-@media (min-width: 768px) and (max-with-1157.98px) {
-  .foo-media-text {
   }
 }
 

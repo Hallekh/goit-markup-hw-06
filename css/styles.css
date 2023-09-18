@@ -621,10 +621,11 @@ header nav .logo {
   }
 }
 
-@media (min-width: 1167.98px) {
+@media (min-width: 1157.98px) {
   .foo-box {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     flex-shrink: 0;
     align-items: baseline;
     justify-content: space-between;
@@ -648,7 +649,7 @@ header nav .logo {
   }
 }
 
-@media (min-width: 1167.98px) {
+@media (min-width: 1157.98px) {
   .logo-box {
     margin-right: 120px;
   }
@@ -673,6 +674,12 @@ header nav .logo {
   }
 }
 
+@media (min-width: 1157.98px) {
+  .logo {
+    display: inline-block;
+  }
+}
+
 .foo-media-text {
   display: flex;
   justify-content: center;
@@ -685,7 +692,7 @@ header nav .logo {
 
 @media (min-width: 767.98px) {
   .foo-media-text {
-    display: block;
+    display: inline-block;
   }
 }
 
@@ -736,10 +743,11 @@ header nav .logo {
   }
 }
 
-@media (min-width: 1167.98px) {
+@media (min-width: 1157.98px) {
   .subscribe-container {
     display: block;
     margin-left: 65px;
+    width: 30%;
   }
 }
 
@@ -796,7 +804,7 @@ header nav .logo {
 
 @media (min-width: 767.98px) {
   .user-email-input {
-    width: 264px;
+    min-width: 264px;
   }
 }
 

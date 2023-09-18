@@ -101,16 +101,16 @@ header nav .logo {
   }
 }
 /* Styles for desktop devices */
-@media only screen and (min-width: 1168px) {
+@media only screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding: 0 15px;
   }
 }
 
 .nav {
   display: flex;
   align-items: baseline;
-  padding: 24px 0;
 }
 
 .list {
@@ -200,8 +200,13 @@ header nav .logo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 188px 0;
+  padding: 112px 0;
   margin: 0 auto;
+}
+@media (min-width: 1157.98px) {
+  .hero {
+    padding: 188px 0;
+  }
 }
 
 .hero-title {
@@ -214,6 +219,7 @@ header nav .logo {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
+  padding-top: 112px;
 }
 
 .btn {
@@ -269,7 +275,13 @@ header nav .logo {
 }
 
 .features {
-  padding: 120px 0;
+  padding: 96px 0;
+}
+
+@media (min-width: 1157.98px) {
+  .features {
+    padding: 120px 0;
+  }
 }
 
 .visually-hidden {
@@ -391,7 +403,19 @@ header nav .logo {
 
 .cards {
   background-color: var(--light-background-color);
-  padding: 120px 0;
+  padding: 96px 0;
+}
+
+@media (min-width: 1157.98px) {
+  .cards {
+    padding: 120px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1157.98px) {
+  .team-container {
+    width: 584px;
+  }
 }
 
 .team-title {
@@ -413,6 +437,7 @@ header nav .logo {
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  row-gap: 64px;
 }
 
 .card {
@@ -498,8 +523,20 @@ header nav .logo {
 }
 
 .customers {
-  padding: 120px 0;
+  padding: 96px 0;
   margin: 0 auto;
+}
+
+@media (min-width: 1157.98px) {
+  .customers {
+    padding: 120px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1157.98px) {
+  .customers-container {
+    width: 584px;
+  }
 }
 
 .customers-title {
@@ -521,6 +558,7 @@ header nav .logo {
   padding-left: 0;
   list-style: none;
   gap: 16px;
+  row-gap: 72px;
 }
 
 .customer {
@@ -578,7 +616,9 @@ header nav .logo {
 @media (min-width: 767.98px) {
   .foo-box {
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 24px;
   }
 }
 
@@ -592,6 +632,12 @@ header nav .logo {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1157.98px) {
+  .foo-box {
+    width: 584px;
+  }
+}
+
 .logo-box {
   display: flex;
   flex-direction: column;
@@ -600,12 +646,6 @@ header nav .logo {
 @media (max-width: 767.98px) {
   .logo-box {
     margin-bottom: 72px;
-  }
-}
-
-@media (min-width: 767.98px) {
-  .logo-box {
-    flex-grow: 1;
   }
 }
 
@@ -630,7 +670,12 @@ header nav .logo {
 
 @media (min-width: 767.98px) {
   .logo {
-    display: inline-block;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 768px) and (max-with-1157.98px) {
+  .foo-media-text {
   }
 }
 
@@ -692,6 +737,8 @@ header nav .logo {
 @media (min-width: 767.98px) {
   .subscribe-container {
     display: block;
+    width: 100%;
+    justify-content: left;
   }
 }
 
@@ -705,7 +752,6 @@ header nav .logo {
 @media (min-width: 767.98px) and (max-width: 1167.98px) {
   .subscribe-container {
     margin-top: 72px;
-    flex-grow: 3;
   }
 }
 
@@ -738,10 +784,6 @@ header nav .logo {
   .subscribe-form {
     flex-direction: row;
   }
-}
-
-.subscribe-label {
-  width: 100%;
 }
 
 .user-email-input {
@@ -779,6 +821,12 @@ header nav .logo {
   align-items: center;
   min-width: 165px;
   height: 40px;
+}
+
+@media (min-width: 767.98px) and (max-width: 1158px) {
+  .subscribe-btn {
+    margin-left: 0;
+  }
 }
 
 .backdrop {

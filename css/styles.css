@@ -197,7 +197,7 @@ header nav .logo {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/hero-mob-bg.png);
+    url(../images/hero/hero-mob-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -212,7 +212,7 @@ header nav .logo {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero-mob-bg@2x.png);
+      url(../images/hero/hero-mob-bg@2x.jpg);
   }
 }
 
@@ -222,19 +222,19 @@ header nav .logo {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero-tab-bg.png);
+      url(../images/hero/hero-tab-bg.jpg);
   }
 }
 
 @media (min-width: 757.98px) and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+  (min-width: 757.98px) and (min-resolution: 192dpi),
+  (min-width: 757.98px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero-tab-bg@2x.png);
+      url(../images/hero/hero-tab-bg@2x.jpg);
   }
 }
 @media (min-width: 1157.98px) {
@@ -244,19 +244,19 @@ header nav .logo {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero-desc-bg.png);
+      url(../images/hero/hero-desc-bg.jpg);
   }
 }
 
-@media (min-width: 1157.98px) and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media only screen and (min-width: 1157.98px) and (min-device-pixel-ratio: 2),
+  (min-width: 1157.98px) and (min-resolution: 192dpi),
+  (min-width: 1157.98px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/hero-desc-bg@2x.png);
+      url(../images/hero/hero-desc-bg@2x.jpg);
   }
 }
 
@@ -803,7 +803,7 @@ header nav .logo {
   .subscribe-container {
     display: block;
     margin-left: 65px;
-    width: 30%;
+    width: 37%;
   }
 }
 
